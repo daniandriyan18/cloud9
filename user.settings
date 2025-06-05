@@ -2,7 +2,7 @@
     "ace": {
         "@keyboardmode": "default",
         "@showGutter": true,
-        "@theme": "ace/theme/ambiance",
+        "@theme": "ace/theme/monokai",
         "statusbar": {
             "@show": true
         }
@@ -15,7 +15,7 @@
         "@pause": 0
     },
     "general": {
-        "@skin": "jett-dark"
+        "@skin": "cloud9-night"
     },
     "openfiles": {
         "@show": false
