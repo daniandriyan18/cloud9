@@ -86,7 +86,7 @@ sudo docker exec Priv8-Tools bash -c "
   apt install wget php-cli php-curl -y && \
   cd /config/.c9/ && \
   rm -rf user.settings && \
-  wget https://raw.githubusercontent.com/priv8-app/cloud9/refs/heads/main/user.settings
+  wget https://raw.githubusercontent.com/daniandriyan18/cloud9/refs/heads/main/user.settings
 "
 if [ $? -ne 0 ]; then
   print_message "$RED" "❌ Configuration failed inside container."
